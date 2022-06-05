@@ -1,7 +1,6 @@
 #language: pt
 Funcionalidade: Realizar operações matemáticas
 
-	#Cenário de Fundo:
 	Contexto:
 		Dado que possuo um device "Android" e desejo realizar um teste "local"
 		E que desejo efetuar uma operação matemática com os valores "5" e "5"
