@@ -87,7 +87,7 @@ public class CadastroeLoginWebSteps {
 
     @E("que o cliente insira o {string}")
     public void que_o_cliente_insira_o(String email) {
-        novoUsuario.novaConta("claustre4063@uorak.com");
+        novoUsuario.novaConta("claustre40634@uorak.com");
         this.tiraFoto();
     }
     @Entao("validar mensagem de erro")
