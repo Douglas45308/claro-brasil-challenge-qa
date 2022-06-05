@@ -1,10 +1,11 @@
 # language: pt
-Funcionalidade:  Realizar uma compra com sucesso
+Funcionalidade:  Realizar cadastro, login e adicionar produto no carrinho
 
-Como cliente desejo realizar uma compra com sucesso
-No site Automation Practice
- 
-  Contexto: Acessar site 
+Como cliente desejo realizar cadastro, login e adicionar produto no carrinho no site Automation Practice
+
+ #PARA EXECUTAR O CENÁRIO INSTRUÇÕES NO ARQUIVO >> GeradorDeEmails
+
+	Contexto: Acessar site
   	Dado que o cliente acesse o site
 
 	@RealizarCadastro

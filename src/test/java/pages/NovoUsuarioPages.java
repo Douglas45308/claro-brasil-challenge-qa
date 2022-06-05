@@ -1,6 +1,6 @@
 package pages;
 
-import baseojects.NovoUsuarioObjects;
+import baseobjects.NovoUsuarioObjects;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 

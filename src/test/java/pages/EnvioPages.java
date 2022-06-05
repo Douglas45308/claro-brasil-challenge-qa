@@ -1,6 +1,6 @@
 package pages;
 
-import baseojects.EnvioObjects;
+import baseobjects.EnvioObjects;
 import org.openqa.selenium.WebDriver;
 
 public class EnvioPages {

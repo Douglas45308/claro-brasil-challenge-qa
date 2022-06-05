@@ -1,6 +1,6 @@
 package pages;
 
-import baseojects.AdicionarProdutoAoCarrinhoObjects;
+import baseobjects.AdicionarProdutoAoCarrinhoObjects;
 import org.openqa.selenium.WebDriver;
 
 public class AdicionarProdutoAoCarrinhoPages {

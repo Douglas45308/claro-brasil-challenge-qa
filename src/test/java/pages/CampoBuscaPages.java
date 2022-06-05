@@ -1,6 +1,6 @@
 package pages;
 
-import baseojects.CampoBuscaObjects;
+import baseobjects.CampoBuscaObjects;
 import org.openqa.selenium.WebDriver;
 
 public class CampoBuscaPages {

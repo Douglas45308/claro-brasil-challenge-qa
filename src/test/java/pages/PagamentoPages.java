@@ -1,6 +1,6 @@
 package pages;
 
-import baseojects.PagamentoObjects;
+import baseobjects.PagamentoObjects;
 import org.openqa.selenium.WebDriver;
 
 public class PagamentoPages {

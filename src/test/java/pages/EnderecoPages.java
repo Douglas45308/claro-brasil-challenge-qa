@@ -1,6 +1,6 @@
 package pages;
 
-import baseojects.Endereco;
+import baseobjects.Endereco;
 import org.openqa.selenium.WebDriver;
 
 public class EnderecoPages {

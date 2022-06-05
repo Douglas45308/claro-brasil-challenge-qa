@@ -1,0 +1,14 @@
+
+=======Utilize o site abaixo para gerar e-mail temporário. ==================
+
+ >>> https://www.invertexto.com/gerador-email-temporario <<<
+
+
+
+Trocar a massa >> Ir na Classe >> .\claro-brasil-challenge-qa\src\test\java\steps\CadastroeLoginWebSteps.java > metodo:
+
+ @E("que o cliente insira o {string}")
+    public void que_o_cliente_insira_o(String email) {
+        novoUsuario.novaConta("INSERIR EMAIL NOVO");
+        this.tiraFoto();
+    }

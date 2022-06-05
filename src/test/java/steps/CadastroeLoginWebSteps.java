@@ -34,7 +34,6 @@ public class CadastroeLoginWebSteps {
     @Before
     public void inicio() {
 
-        //System.setProperty("webdriver.chrome.driver", "C:\\workspace\\testebrq\\drivers\\chrome\\chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", "./drivers/chrome/chromedriver.exe/");
         digitar = new CampoBuscaPages(driver);
         produto = new AdicionarProdutoAoCarrinhoPages(driver);
@@ -88,7 +87,7 @@ public class CadastroeLoginWebSteps {
 
     @E("que o cliente insira o {string}")
     public void que_o_cliente_insira_o(String email) {
-        novoUsuario.novaConta("hipolito1805@uorak.com");
+        novoUsuario.novaConta("claustre4063@uorak.com");
         this.tiraFoto();
     }
     @Entao("validar mensagem de erro")
